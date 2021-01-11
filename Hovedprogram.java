@@ -223,7 +223,7 @@ public class Hovedprogram extends Application {
 
         // Leser inn fra fil
         FileChooser fileChooser = new FileChooser();
-        fileChooser.setInitialDirectory(new File("."));
+        fileChooser.setInitialDirectory(new File("./inputs"));
         File fil = fileChooser.showOpenDialog(stage);
         try {
             labyrint = Labyrint.lesFraFil(fil);
