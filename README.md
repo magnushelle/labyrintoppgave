@@ -1,7 +1,7 @@
 # labyrintoppgave
 
-Denne oppgaven ble gitt i slutten av emnet Objektorientert programmering, og er et resultat av flere sammensatte oppgaver.
+Denne oppgaven ble gitt i slutten av et emne om objektorientert programmering.
 
-Oppgaven tar i bruk egenimplementert enveis lenket liste, parallellprogrammering og grafisk grensesnitt med JavaFX. 
+Programmet tar i bruk egenimplementert enveis lenket liste, parallellprogrammering og grafisk grensesnitt med JavaFX. 
 
 For å kjøre programmet kreves derfor en maskin med JavaFX tilgjengelig. 
