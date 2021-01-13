@@ -261,6 +261,7 @@ public class Hovedprogram extends Application {
         k = new TextField(); k.setPrefSize(40, 15);
         r = new TextField(); r.setPrefSize(40, 15);
         finnUtveier = new Knapp("Finn utveier");
+        finnUtveier.setPrefWidth(100);
         finnUtveier.setOnAction(finnUtveierBehandler);
         tekstinput.getChildren().addAll(kolonne, k, rad, r, finnUtveier);
         tekstinput.setStyle("-fx-padding: 50 0 00 0;");
@@ -278,6 +279,7 @@ public class Hovedprogram extends Application {
         // Oppretter buttons
         nyFil = new Knapp("Velg ny fil...");
         nyFil.setOnAction(nyFilBehandler);
+        nyFil.setPrefWidth(140);
         avslutt = new Knapp("Avslutt");
         avslutt.setOnAction(avsluttBehandler);
         alternativer = new HBox();
